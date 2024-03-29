@@ -48,7 +48,7 @@ def decision_support_system():
         recommendation = "Monitor soil conditions and market trends for optimal decision-making."
 
     return recommendation
-
+# return the recommendation
 if __name__ == "__main__":
     recommendation = decision_support_system()
     print("Recommendation:", recommendation)

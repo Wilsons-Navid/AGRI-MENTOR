@@ -15,13 +15,13 @@ class MarketAPI:
     @staticmethod
     def get_demand_trends():
         return {"maize": "high", "rice": "medium", "wheat": "low"}  
-
+#
 def get_soil_moisture():
     return float(input("Enter current soil moisture level: "))  
 
 def get_soil_acidity():
     return float(input("Enter current soil acidity level: "))  
-
+#collecting the soil and acidity from the function
 def collect_soil_data():
     soil_moisture = get_soil_moisture() 
     soil_acidity = get_soil_acidity()    

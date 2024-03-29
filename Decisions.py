@@ -1,9 +1,10 @@
+#Creating class Weather API with a function getforest();
 class WeatherAPI:
     @staticmethod
     def get_forecast():
         precipitation = float(input("Enter current precipitation level: "))  
         temperature = float(input("Enter current temperature: "))  
-        humidity = float(input("Enter current humidity: "))  
+        humidity = float(input("Enter current humidity: ")) 
         return {"precipitation": precipitation, "temperature": temperature, "humidity": humidity}
 
 class MarketAPI:

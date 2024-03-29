@@ -1,11 +1,12 @@
+#Creating class Weather API with a function getforest();
 class WeatherAPI:
     @staticmethod
     def get_forecast():
         precipitation = float(input("Enter current precipitation level: "))  
         temperature = float(input("Enter current temperature: "))  
-        humidity = float(input("Enter current humidity: "))  
+        humidity = float(input("Enter current humidity: ")) 
         return {"precipitation": precipitation, "temperature": temperature, "humidity": humidity}
-
+#Market API  class to get market trends
 class MarketAPI:
     @staticmethod
     def get_crop_prices():
@@ -14,13 +15,13 @@ class MarketAPI:
     @staticmethod
     def get_demand_trends():
         return {"maize": "high", "rice": "medium", "wheat": "low"}  
-
+#
 def get_soil_moisture():
     return float(input("Enter current soil moisture level: "))  
 
 def get_soil_acidity():
     return float(input("Enter current soil acidity level: "))  
-
+#collecting the soil and acidity from the function
 def collect_soil_data():
     soil_moisture = get_soil_moisture() 
     soil_acidity = get_soil_acidity()    

@@ -14,7 +14,8 @@ if specific_crops.upper() == "Y":
     crops = input("Please enter the crops you want to plant, separated by commas: ")
     crop_list = crops.split(",")
 else:
-    crop_list = ['beans']
+    crop_list = ['beans', 'wheat', 'corn', 'potato', 'tomato', 'carrot', 'lettuce', 'cabbage', 'onion', 'pepper',
+             'strawberry', 'rice', 'barley', 'soybeans', 'peanut', 'oats', 'sunflower', 'sugarcane', 'coffee', 'cotton']
 # Analyze data based on conditions and market trends
 market_trends_good = True  # Placeholder value, you would need to implement the logic to determine market trends
 

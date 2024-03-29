@@ -40,7 +40,7 @@ def decision_support_system():
     soil_moisture, soil_acidity = collect_soil_data()
     weather_forecast = fetch_weather_forecast()
     crop_prices, demand_trends = analyze_market_trends()
-
+# providing recommendation base on data collected
     if soil_moisture < soil_acidity and weather_forecast["precipitation"] > soil_acidity:
         recommendation = "Consider planting drought-resistant crops."
     elif crop_prices["maize"] > crop_prices["rice"]:

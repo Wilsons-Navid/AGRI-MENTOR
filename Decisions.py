@@ -6,7 +6,7 @@ class WeatherAPI:
         temperature = float(input("Enter current temperature: "))  
         humidity = float(input("Enter current humidity: ")) 
         return {"precipitation": precipitation, "temperature": temperature, "humidity": humidity}
-#Market API  class to get market trends
+#Market API  class to get market trend
 class MarketAPI:
     @staticmethod
     def get_crop_prices():

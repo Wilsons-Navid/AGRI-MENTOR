@@ -1,4 +1,4 @@
-#Creating class Weather API with a function getforest();
+#Creating class Weather API with a function getforest()
 class WeatherAPI:
     @staticmethod
     def get_forecast():

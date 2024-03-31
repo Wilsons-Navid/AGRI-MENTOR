@@ -17,7 +17,7 @@ class MarketAPI:
     def get_demand_trends():
         return {"maize": "high", "rice": "medium", "wheat": "low"}  
 
-#
+# asking the user for the soil moisture level
 def get_soil_moisture():
     return float(input("Enter current soil moisture level: "))  
 

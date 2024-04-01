@@ -30,7 +30,7 @@ def collect_soil_data():
     soil_acidity = get_soil_acidity()    
     return soil_moisture, soil_acidity
 
-def fetch_weather_forecas():
+def fetch_weather_forecast():
     forecast = WeatherAPI.get_forecast()
     return forecast
 

@@ -31,7 +31,7 @@ def fetch_weather_forecast():
     forecast = WeatherAPI.get_forecast()
     return forecast
 # analyzing market trends
-def analyze_market_trends():
+def analyze_market_trend():
     crop_prices = MarketAPI.get_crop_prices()
     demand_trends = MarketAPI.get_demand_trends()
     return crop_prices, demand_trends

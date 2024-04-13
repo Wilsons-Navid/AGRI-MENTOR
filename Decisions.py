@@ -1,6 +1,6 @@
 import mysql.connector
 
-# Establish Database Connection
+#Establish Database Connection
 def establish_connection():
     try:
         conn = mysql.connector.connect(

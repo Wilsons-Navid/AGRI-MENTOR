@@ -1,4 +1,4 @@
-print("Welcome to AgriMentor! This is a Soil Monitoring Application for Smallholder Farmers.")
+print("Welcome to AGRI-MENTOR! This is a Soil Monitoring Application for Smallholder Farmers.")
 print("We will collect and analyze data from IoT sensors to monitor soil conditions and provide personalized crop recommendations.")
 print("Let's get started!")
 

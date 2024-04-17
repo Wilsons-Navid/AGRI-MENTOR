@@ -62,6 +62,7 @@ def fetch_crop_data(conn):
 class WeatherAPI:
     @staticmethod
     def get_forecast():
+        location = float(input("Enter current humidity: "))
         precipitation = float(input("Enter current precipitation level: "))
         temperature = float(input("Enter current temperature: "))
         humidity = float(input("Enter current humidity: "))
